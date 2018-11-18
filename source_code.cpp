@@ -67,7 +67,6 @@ void checkFORWIN(string a[9])
 			break;
 		}
 
-
 		case 1:
 		{int lettercounter_X = 0;
 		int lettercounter_O = 0;
@@ -291,7 +290,6 @@ void check_FOR_almost_WIN(string a[9])
 
 	for (int j = 0; j < 8; j++)
 	{
-
 		switch (j)
 		{
 		case 0:
@@ -337,7 +335,6 @@ void check_FOR_almost_WIN(string a[9])
 			Almost_win = true;
 			understand = 1;
 		}
-
 		break;
 		}
 
@@ -393,7 +390,6 @@ void check_FOR_almost_WIN(string a[9])
 		int lettercounter_O = 0;
 		for (int i = 1; i < 8; i = i + 3)
 		{
-
 			if (a[i] == "O ")
 			{
 				lettercounter_O += 1;
@@ -403,9 +399,6 @@ void check_FOR_almost_WIN(string a[9])
 			{
 				lettercounter_X += 1;
 			}
-
-
-
 		}
 		if (lettercounter_O == 2 && lettercounter_X == 0)
 		{
@@ -622,7 +615,6 @@ do
 				}
 				break;
 			}
-
 			}
 		}
 		else
